@@ -1,0 +1,137 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+@font-face {
+  font-family: 'October Moon';
+  src: url('../font/october-moon.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Love-n-Sun';
+  src: url('../font/love-and-sunshine.otf') format('opentype');
+}
+
+/***** GRID SECTION *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER SECTION *****/
+header {
+  background: url('../img/background.png');
+  background-size: cover;
+  margin: 0 auto;
+  height: 800px;
+  width: auto;
+}
+
+.heading {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 175px;
+  width: 100%;
+}
+
+header .heading h1 {
+  font-family: 'October Moon';
+  font-size: 150px;
+}
+
+.title {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  width: 100%;
+}
+
+header .title p {
+  font-size: 36px;
+}
+
+/***** NAVIGATION SECTION *****/
+header nav {
+  left: 0;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #000000;
+  font-family: 'Love-n-Sun';
+  font-size: 30px;
+  text-decoration: none;
+  padding-right: 80px;
+}
+
+/***** ABOUT SECTION *****/
+#about h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#family-img {
+  background:#000000;
+  border-bottom: 12px solid #000000;
+  border-left: 5px solid #000000;
+  border-right: 5px solid #000000;
+  border-top: 12px solid #000000;
+  border-radius: 25px;
+  margin-left: 45px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -65px;
+}
+
+/***** WORK SECTION *****/
+#work {
+  background: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 40px 0;
+}
+
+#work img {
+  padding-bottom: 0px;
+}
+
+#work h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
